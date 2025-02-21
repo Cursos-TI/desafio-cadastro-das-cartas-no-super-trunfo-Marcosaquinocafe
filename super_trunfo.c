@@ -19,19 +19,19 @@ int main() {
     scanf("%4s", &codigo1);  
 
     printf("Nome da Cidade: ");
-    scanf("%s\n", &nomeCidade1);  
+    scanf("%s", &nomeCidade1);  
 
     printf("População da cidade: ");
-    scanf("%d\n", &populacao1);  
+    scanf("%d", &populacao1);  
 
     printf("Área: ");
-    scanf("%f\n", &area1);  
+    scanf("%f", &area1);  
 
     printf("PIB: ");
-    scanf("%f\n", &pib1);  
+    scanf("%f", &pib1);  
 
     printf("Número de Pontos Turísticos: ");
-    scanf("%d\n", &pontosTuristicos1);  
+    scanf("%d", &pontosTuristicos1);  
 
     // Leitura dos dados da segunda carta
 
@@ -41,18 +41,18 @@ int main() {
     scanf(" %c", &estado2);  
 
     printf("Código: ");
-    scanf("%4s\n", &codigo2);  
+    scanf("%4s", &codigo2);  
 
     printf("Nome da Cidade: ");
-    scanf("%s\n", &nomeCidade2);  
+    scanf("%s", &nomeCidade2);  
 
     printf("População da cidade: ");
-    scanf("%d\n", &populacao2);  
+    scanf("%d", &populacao2);  
 
     printf("Área: ");
-    scanf("%f\n", &area2);  
+    scanf("%f", &area2);  
     printf("PIB: ");
-    scanf("%f\n", &pib2);  
+    scanf("%f", &pib2);  
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);  
 
@@ -76,3 +76,4 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
     return 0;
+}
